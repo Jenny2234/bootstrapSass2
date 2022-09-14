@@ -650,7 +650,15 @@ $utilities: map-merge(
         contain:contain,
         50:50%
       )
-    )
+    ),
+    "background-position":(
+      property:background-position,
+      responsive:true,
+      class:bg-p,
+      value:(
+        center:center center,
+      )
+    ),
   ),
   $utilities
 );
