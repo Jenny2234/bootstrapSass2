@@ -645,7 +645,7 @@ $utilities: map-merge(
     "background-size":(
       property:background-size,
       class:bg-s,
-      value:(
+      values:(
         cover:cover,
         contain:contain,
         50:50%
@@ -655,7 +655,7 @@ $utilities: map-merge(
       property:background-position,
       responsive:true,
       class:bg-p,
-      value:(
+      values:(
         center:center center,
       )
     ),
